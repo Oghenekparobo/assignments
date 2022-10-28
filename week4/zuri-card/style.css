@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+/* flex styles */
+.flex-wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.flex {
+    display: flex;
+}
+
+h1{
+    padding-top: 1rem;
+}
+
+.box {
+    padding: 2rem;
+    max-width: 250px;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.box-headers {
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    padding: 1.5rem 0;
+}
+
+.box-text {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 2;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 95%);
+    color: brown;
+    padding: 9px 15px;
+    border-radius: 30px;
+    margin-top: 7rem;
+}
+
+/* grid styles for grid.html */
+.wrapper {
+    width: 80%;
+
+}
+
+
+.grid-wrapper {
+    background-color: rgb(1, 1, 14);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.orange {
+    background-color: orangered;
+    grid-area: box1;
+    padding: 6rem;
+
+}
+
+.yellow {
+    background-color: yellow;
+    grid-area: box2;
+}
+
+.green {
+    background-color: green;
+    grid-area: box3;
+    padding: 6rem;
+}
+
+.blue {
+    background-color: blue;
+    grid-area: box4;
+}
+
+.s-blue {
+    background-color: blue;
+    grid-area: box0;
+}
+
+.blue {
+    background-color: blue;
+    grid-area: box4;
+}
+
+.grid {
+    display: grid;
+    grid:
+        'box1 box1 box1 box2 box2'
+        'box1 box1 box1 box2 box2'
+        'box3 box3 box3 box0 box0'
+        'box3 box3 box3  box4  box4'
+
+
+    ;
+    grid-gap: 1rem;
+}
