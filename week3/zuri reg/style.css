@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.container h2{
+    font-size: 3rem;
+}
+
+.form-section .btn {
+    padding: 10px;
+    background-color: yellow;
+    width: 100%;
+    cursor: pointer;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.form-group input,
+select {
+    width: 100%;
+    padding: 4px 10px;
+    background-color: rgb(212, 203, 203);
+    color: black;
+    outline: none;
+}

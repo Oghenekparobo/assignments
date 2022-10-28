@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="">
+        <h1>Register</h1>
+
+        <div class="form-section">
+          <form action="login.html">
+            <div class="form-group">
+              <label for="firstname">firstname</label>
+              <input
+                type="text"
+                name="firstname"
+                placeholder="firstname"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="lastname">lastname</label>
+              <input
+                type="text"
+                name="lastname"
+                placeholder="lastname"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="no">Phone no</label>
+              <input
+                type="number"
+                name="number"
+                placeholder="enter phone number"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">email</label>
+              <input type="email" name="email" placeholder="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="gender">gender</label>
+              <select name="gender">
+                <option value="choose">choose</option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="dob">Date Of Birth</label>
+              <input
+                type="date"
+                name="dob"
+                placeholder="Date Of Birth"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="color">Favourite color</label>
+              <input
+                type="color"
+                name="color"
+                placeholder="Favourite color"
+                required
+              />
+            </div>
+
+            <button type="submit" class="btn">Register</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
